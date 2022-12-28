@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+:root {
+    --btn-blue: #2F3C79;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -69,12 +73,16 @@ background-attachment: fixed;
     height: 1px;
     width: 0;
     margin-bottom: 16px;
-    background-color: #2F3C79;
+    background-color: var(--btn-blue);
     transition: .3s ease-in-out;
 }
 
+.login_input:focus + .login_input_border::after{
+    width: 100%;
+}
+
 form .btn-dark{
-    background-color: #2F3C79;
+    background-color: var(--btn-blue);
     width: 30%;
     border: none;
     background-size: 40%;
