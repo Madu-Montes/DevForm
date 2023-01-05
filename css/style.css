@@ -103,3 +103,18 @@ form .btn-dark{
     color: #5a5d66;
     text-decoration: none;
 }
+
+/*Validação*/
+
+input:focus{
+    color: black !important;
+}
+
+input:invalid{
+    color: rgb(128, 13, 13);
+}
+
+input:valid{
+    color: green;
+}
+
