@@ -108,13 +108,14 @@ form .btn-dark{
 
 input:focus{
     color: black !important;
+    transition: 0.5s;
 }
 
 input:invalid{
-    color: rgb(128, 13, 13);
+    color: rgb(179, 72, 72);
 }
 
 input:valid{
-    color: green;
+    color: rgb(42, 82, 42);
 }
 
