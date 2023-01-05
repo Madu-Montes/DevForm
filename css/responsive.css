@@ -1,0 +1,126 @@
+@media (min-width: 768px) and (max-width: 991px) {
+    .login_input{
+        width: 35%;
+    }
+
+    .login_input_border{
+        width: 35%;
+    }
+
+    form .btn-dark{
+        width: 25%;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .login_container{
+        width: 100%;
+    }
+
+    .login_input{
+        width: 30%;
+    }
+
+    .login_input_border{
+        width: 30%;
+    }
+
+    form .btn-dark{
+        width: 20%;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 575px) {
+    .login{
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .login_img{
+        display: none;
+    }
+
+    .login_container{
+        width: 90%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+
+    .login_input{
+        width: 30%;
+    }
+
+    .login_input_border{
+        width: 30%;
+    }
+
+    form .btn-dark{
+        width: 20%;
+    }
+      
+}
+
+@media (min-width: 390px) and (max-width: 413px) {
+    .login{
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .login_img{
+        display: none;
+    }
+
+    .login_container{
+        width: 90%;
+        margin-left: 15%;
+        margin-top: 15%;
+    }
+
+    .login_input{
+        width: 30%;
+    }
+
+    .login_input_border{
+        width: 30%;
+    }
+
+    form .btn-dark{
+        width: 20%;
+    }
+      
+    
+}
+
+@media (min-width: 360px) and (max-width: 389px) {
+    .login{
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .login_img{
+        display: none;
+    }
+
+    .login_container{
+        width: 90%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+
+    .login_input{
+        width: 30%;
+    }
+
+    .login_input_border{
+        width: 30%;
+    }
+
+    form .btn-dark{
+        width: 20%;
+    }
+     
+}
